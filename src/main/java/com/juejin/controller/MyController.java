@@ -28,4 +28,9 @@ public class MyController {
     public String put(String method){
         return "put";
     }
+
+    @DeleteMapping("/delete")
+    public String delete(String method){
+        return "delete";
+    }
 }
