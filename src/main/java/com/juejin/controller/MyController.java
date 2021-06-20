@@ -38,4 +38,9 @@ public class MyController {
     public String request1(){
         return "request1";
     }
+    
+    @RequestMapping("/request")
+    public String request2(){
+        return "request2";
+    }
 }
