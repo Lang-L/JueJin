@@ -33,4 +33,9 @@ public class MyController {
     public String delete(String method){
         return "delete";
     }
+
+    @RequestMapping("/request")
+    public String request1(){
+        return "request1";
+    }
 }
