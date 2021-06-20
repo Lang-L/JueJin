@@ -1,9 +1,6 @@
 package com.juejin.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Author Double_L
@@ -25,5 +22,10 @@ public class MyController {
     @GetMapping("/get")
     public String get(String method){
         return "get";
+    }
+
+    @PutMapping("/put")
+    public String put(String method){
+        return "put";
     }
 }
