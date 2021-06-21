@@ -43,4 +43,9 @@ public class MyController {
     public String request2(){
         return "request2";
     }
+
+    @RequestMapping("/request")
+    public String request(){
+        return "request";
+    }
 }
